@@ -16,7 +16,7 @@ const IndiaMap = ({ data }) => {
     const stateData = data.statewise.find((s) => s.state === state);
     if (stateData) {
       setTooltipContent({
-        state: state,
+        state: state || "No State ",,
         confirmed: stateData.confirmed || "0",
         recovered: stateData.recovered || "0",
         deaths: stateData.deaths || "0",
@@ -27,7 +27,7 @@ const IndiaMap = ({ data }) => {
 
   const handleMouseLeave = () => {
     setTooltipContent({
-      state: "",
+      state: "No State ",
       confirmed: "0",
       recovered: "0",
       deaths: "0",
