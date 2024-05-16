@@ -1,0 +1,12 @@
+/* src/components/IndiaMap.css */
+
+path {
+  cursor: pointer;
+}
+
+.boxStyle {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}

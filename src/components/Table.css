@@ -1,0 +1,12 @@
+.table td,
+.table th,
+table tr {
+  border: none; /* Remove borders from table cells */
+}
+
+.table thead th {
+  border-bottom: none; /* Remove bottom border from table header cells */
+}
+.table th {
+  color: red; /* Set the color of table header text to red */
+}
