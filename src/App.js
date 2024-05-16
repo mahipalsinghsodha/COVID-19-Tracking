@@ -35,7 +35,7 @@ const App = () => {
               <LineCharts data={covidData} />
             </div>
           </div>
-          <div className=" col-12 ">
+          <div className="indiaMap col-12 ">
             <IndiaMap data={covidData} />
           </div>
           <div className="table-box col-12 mt-4 d-flex justify-content-center">

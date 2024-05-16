@@ -37,7 +37,7 @@ const IndiaMap = ({ data }) => {
 
   return (
     <div className="mainMap ">
-      <h4 className="text-center p-5 m-5">Iindia Map to check COVID-19 Data</h4>
+      <h4 className="text-center p-5 m-5">India Map to check COVID-19 Data</h4>
       <div className="row">
         <div className="col-12 col-sm-2">
           <div className="boxStyle bg-secondary text-white">
@@ -70,7 +70,7 @@ const IndiaMap = ({ data }) => {
           </div>
         </div>
       </div>
-      <div style={{ maxWidth: "100%", height: "auto" }}>
+      <div style={{ maxWidth: "100%", height: "500px" }}>
         <svg
           baseProfile="tiny"
           fill="#6f9c76"
@@ -81,7 +81,7 @@ const IndiaMap = ({ data }) => {
           version="1.2"
           viewBox="0 0 1000 1000"
           xmlns="http://www.w3.org/2000/svg"
-          style={{ width: "100%", height: "auto", display: "block" }}
+          style={{ width: "100%", height: "500px", display: "block" }}
           preserveAspectRatio="xMidYMid meet"
         >
           <g id="features">
